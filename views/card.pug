@@ -2,24 +2,21 @@ doctype html
 html
 	head
 		title= name
-		link(rel="stylesheet" href="style.css")
-		link(rel="preconnect" href="https://fonts.googleapis.com")
-		link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
-		link(href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet")
+		link(rel="stylesheet" href="/static/card.css")/
+		include include/head.pug
 	body
-		a(href='/index.html')
-			img(src='/bits/return.png' width='48px' height='48px' alt='Return to Indexicon' left='25px')
-		center
+		a(href='/')
+			img(src='/static/return.png' width='48px' height='48px' alt='Return to Indexicon' left='25px')
+		.center
 			h1= name
-		.bitcircle
-		.bit
-		.img(src=image width='64px' height='64px' alt=printing right-10px)
-		.effect
-			p= effect
-		.power
-			.p2= power
-		.deckslot
-			.p2= deckslot
-		.rating
-			.p2= rating
-		.unlock= unlock
+			.bit
+				img(src=image width='64px' height='64px' alt=printing right-10px)
+			.effect
+				p= effect
+				.power
+					.p2= power
+				.deckslot
+					.p2= deckslot
+				.rating
+					.p2= rating
+			.unlock= unlock

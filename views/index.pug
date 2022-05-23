@@ -1,0 +1,15 @@
+doctype html
+html
+	head
+		title Card Index
+		link(rel="stylesheet" href="/static/style.css")/
+		include include/head.pug
+	body
+		h1.center Indexicon
+	ul
+		.bit-chart
+			each card in cards
+				li
+					a(href='cards/'+card)
+						.bit
+							img(src='/static/card-arts/'+card+'.png' right="10px")

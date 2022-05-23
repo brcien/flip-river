@@ -1,0 +1,112 @@
+body {
+    background-color: #a84b2f;
+}
+
+* {
+    font-family: 'Press Start 2P', cursive;
+}
+
+.center {
+  text-align: center;
+}
+
+
+.bit img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 96px;
+    height: 96px;
+}
+
+h1 {
+    margin-left: auto;
+    margin-right: auto;
+    color: maroon;
+
+}
+.effect {
+
+    background-color: Beige;
+    width: 250px;
+    height: 125px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    border-radius: 10%;
+    position: relative;
+}
+
+p {
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.p2 {
+    padding-top: 25 %px;
+    padding-left: 5 %px;
+
+    font-size: 80%;
+
+}
+.power {
+    color: maroon;
+    background-color: #cccaa9;
+    border-color: black;
+    border-width: 2px;
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    left: 10px;
+    top: 90px;
+    border-radius: 50%;
+}
+.rating {
+    color: maroon;
+    background-color: #cccaa9;
+    border-color: black;
+    border-width: 2px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 10px;
+    top: 90px;
+    border-radius: 50%;
+}
+.unlock {
+
+    background-color: #ede77e;
+    width: 500px;
+    height: 40px;
+    display: block;
+    margin-left: 25px;
+    margin-top: 25px;
+    padding-top: 10px;
+    border-radius: 5%;
+}
+.name {
+    background-color: #ede77e;
+    width: 275px;
+    height: 40px;
+    display: block;
+    padding-top: 10px;
+    padding-right: 10px;
+    margin-left: 25px;
+    margin-top: 10px;
+    border-radius: 5%;
+
+}
+.deckslot {
+    color: maroon;
+    background-color: #cccaa9;
+    border-color: black;
+    border-width: 2px;
+    width: 20px;
+    height: 20px;
+    left: 175px;
+    top: 90px;
+    position: absolute;
+    border-radius: 50%;
+}

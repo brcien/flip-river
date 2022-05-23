@@ -1,7 +1,9 @@
 {
   "dependencies": {
     "js-yaml": "^4.1.0",
+    "mime": "^3.0.0",
     "polka": "^0.5.2",
-    "pug": "^3.0.2"
+    "pug": "^3.0.2",
+    "serve-static": "^1.15.0"
   }
 }

@@ -1,0 +1,41 @@
+body {
+    background-color: #c4b99c;
+}
+.bit {
+    width: 32px;
+    height: 32px;
+}
+.bit:hover {
+    transform: scale(2);
+}
+
+.center {
+  text-align: center
+}
+
+* {
+    font-family: 'Press Start 2P', cursive;
+}
+.bit {
+    background-color: Beige;
+    width: px64;
+    height: 64px;
+    padding-right: 39px;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+.bit img {
+    width: 64px;
+    height: 64px;
+}
+
+.bit-chart {
+    display: inline;
+}
+
+.bit-chart li {
+    display: inline-block;
+    padding: 0;
+    list-style: none;
+}
