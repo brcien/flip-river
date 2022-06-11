@@ -1,0 +1,4 @@
+#!/bin/sh
+cd ~/flip-river
+git pull
+npm i

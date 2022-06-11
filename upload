@@ -1,0 +1,5 @@
+#!/bin/sh
+cd ~/flip-river
+git add .
+git commit -m "$@"
+git push
